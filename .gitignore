@@ -32,3 +32,10 @@ build_hhs_canvas.py
 title_glyphs.py
 measure.py
 hhs_geom_calcs.py
+
+# kept local for now
+eda_toolkit.py
+scan_and_profile.py
+paths_local.py
+scratch_map.py
+build_hhs_selectors.py
