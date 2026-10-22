@@ -1,0 +1,8 @@
+numpy
+pandas
+pyyaml
+pillow
+fonttools
+matplotlib
+pytest
+# map projects also need a geometry library (check the imports in the project's map script)

@@ -1,0 +1,9 @@
+# Dataset spec: what the generic analysis modules need to know about this dataset.
+name: hhs-anomaly-detector
+entity: state
+groups: [All groups, "Children's Medicaid", "Aged, Medicare", Disability, Pregnant women, Parents, "Breast, cervical cancer"]
+period: {grain: month, first: 2014-09, last: 2026-07, incomplete_from: 2026-02}
+metric: mom_pct              # month-over-month change in caseload
+baseline: {window: 12, threshold: 3, methods: [mean_sd, median_mad]}
+suppression: none            # state-level counts
+source: HHSC Healthcare Statistics (hhs.texas.gov)

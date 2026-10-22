@@ -1,0 +1,28 @@
+# secrets and environments
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# data stays out of git: scripts download or rebuild it (see data/README.md)
+data/*
+!data/README.md
+*.csv
+*.parquet
+*.hyper
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Tableau workbooks hold local file paths; publish and link instead
+*.twb
+*.twbx
+
+# fonts are downloaded, not committed (see projects/01-hhs-anomaly-detector/README.md)
+*.ttf
+*.otf
