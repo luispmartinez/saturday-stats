@@ -18,7 +18,7 @@
 **Included here:** the data-prep stages, the proof script (`build_hhs_flag_detail.py`) and the map-layer builder.
 **Held back for now:** the canvas builder and its helpers (`build_hhs_canvas.py`, `title_glyphs.py`, `measure.py`, `hhs_geom_calcs.py`) while I decide how to share them, so the dashboard cannot be fully rebuilt from this repo alone. The method, the numbers and the shared analysis code are all here; the published dashboard is the finished result.
 Fonts are not committed. Download Open Sans (Regular), Anton (Regular) and Barlow Condensed (SemiBold, Medium) from Google Fonts into `fonts/`.
-Run order: TODO list the Stage 1 and Stage 2 scripts, then `build_hhs_flag_detail.py` (proof), `build_hhs_map_layer.py`.
+Run order: `explore_hhs_enrollment.py` (the exploratory step; it writes the five Stage 2 files), then `build_hhs_flag_detail.py` (proof), then `build_hhs_map_layer.py`.
 Copy your local scripts in with `scripts/import_hhs.sh`.
 
 ## Notes for developers
