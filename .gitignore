@@ -12,6 +12,7 @@ data/*
 !data/README.md
 *.csv
 *.parquet
+*.xlsx
 *.hyper
 *.shp
 *.shx
