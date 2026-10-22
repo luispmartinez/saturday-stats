@@ -1,6 +1,8 @@
 # 01 HHS anomaly detector
 
-**Live dashboard:** TODO paste the Tableau Public link here.
+[![HHSC anomaly detector dashboard](images/hhsc-anomaly-detector.png)](https://public.tableau.com/views/HHSCMedicaidCHIPEnrollment/HHSCAnomalyDetector?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+**Live dashboard:** [Open it on Tableau Public](https://public.tableau.com/views/HHSCMedicaidCHIPEnrollment/HHSCAnomalyDetector?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 **Question.** Which months of Texas Medicaid and CHIP enrollment are unusual, and does the choice of method change the answer?
 
@@ -13,8 +15,10 @@
 **Sources.** HHSC Healthcare Statistics (hhs.texas.gov); HHSC unwinding plan (Jun 2023); Every Texan (Jul 2023); US Census Bureau cartographic boundary files (county).
 
 ## Rebuild
+**Included here:** the data-prep stages, the proof script (`build_hhs_flag_detail.py`) and the map-layer builder.
+**Held back for now:** the canvas builder and its helpers (`build_hhs_canvas.py`, `title_glyphs.py`, `measure.py`, `hhs_geom_calcs.py`) while I decide how to share them, so the dashboard cannot be fully rebuilt from this repo alone. The method, the numbers and the shared analysis code are all here; the published dashboard is the finished result.
 Fonts are not committed. Download Open Sans (Regular), Anton (Regular) and Barlow Condensed (SemiBold, Medium) from Google Fonts into `fonts/`.
-Run order: TODO list the Stage 1 and Stage 2 scripts, then `build_hhs_flag_detail.py` (proof), `build_hhs_map_layer.py`, `build_hhs_canvas.py`, `hhs_geom_calcs.py`.
+Run order: TODO list the Stage 1 and Stage 2 scripts, then `build_hhs_flag_detail.py` (proof), `build_hhs_map_layer.py`.
 Copy your local scripts in with `scripts/import_hhs.sh`.
 
 ## Notes for developers

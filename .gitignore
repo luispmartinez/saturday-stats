@@ -26,3 +26,9 @@ data/*
 # fonts are downloaded, not committed (see projects/01-hhs-anomaly-detector/README.md)
 *.ttf
 *.otf
+
+# held back while the toolkit license is decided: never commit these
+build_hhs_canvas.py
+title_glyphs.py
+measure.py
+hhs_geom_calcs.py

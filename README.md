@@ -7,6 +7,10 @@ Advanced analytics on public data, built on Saturdays. Each project ends in a da
 | 01 | [HHS anomaly detector](projects/01-hhs-anomaly-detector) | Which months of Texas Medicaid and CHIP enrollment are unusual, and does the method matter? | Live on Tableau Public |
 | 02 | [School discipline disparities](projects/02-school-discipline-disparities) | Which campuses sit far above expectation, and where are the gaps widest? | Planned |
 
+[![HHSC anomaly detector dashboard](projects/01-hhs-anomaly-detector/images/hhsc-anomaly-detector.png)](https://public.tableau.com/views/HHSCMedicaidCHIPEnrollment/HHSCAnomalyDetector?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+*Project 01, live on Tableau Public: click the picture to open it.*
+
 ## How the projects are built
 - **Show uncertainty.** Every estimate carries a band; no bare numbers.
 - **Prove each module.** Every analysis step has a test that recomputes it independently (`shared/tests/`).
